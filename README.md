@@ -88,13 +88,13 @@ The system is inspired by production MLOps architectures but optimised for light
 
 ## 3. Key Features
 
-### ✅ Confidence Intervals on Forecasts (NEW)
+###  Confidence Intervals on Forecasts (NEW)
 Instead of a single prediction line, the system generates a **95% confidence band** around every forecast. The band is derived from the model's training residuals (actual minus predicted), scaled by a z-score of 1.96. This gives stakeholders an honest picture of forecast uncertainty.
 
-### ✅ A/B Model Comparison Table (NEW)
+###  A/B Model Comparison Table (NEW)
 All three models are trained and evaluated on the **same held-out test set**. Their MAE, RMSE, and MAPE scores are ranked in a comparison table. The winning model is highlighted in green in the dashboard. This makes model selection transparent and reproducible.
 
-### ✅ Feature Importance Visualisation (NEW)
+### Feature Importance Visualisation (NEW)
 After training, the winning tree-based model's `.feature_importances_` array is extracted, saved, and displayed as a ranked horizontal bar chart. This answers the key question: *"what is actually driving our forecast?"*
 
 ### Additional features
@@ -403,9 +403,9 @@ streamlit run dashboard/app.py
 
 | Tab | What you see | What to look for |
 |-----|-------------|-----------------|
-| 📈 Forecast View | Forecast line + CI shaded area | Width of CI shows model confidence |
-| 🏆 Model Performance | Green-highlighted winner + feature bars | MAPE < 5% is good; lag_1 usually top feature |
-| 🔍 Data Quality | Anomaly timeline + flagged rows | Spikes often correlate with promotions |
+|  Forecast View | Forecast line + CI shaded area | Width of CI shows model confidence |
+|  Model Performance | Green-highlighted winner + feature bars | MAPE < 5% is good; lag_1 usually top feature |
+|  Data Quality | Anomaly timeline + flagged rows | Spikes often correlate with promotions |
 
 ---
 
