@@ -1,0 +1,24 @@
+# ── Core data stack ──────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+
+# ── Database ─────────────────────────────────────────────────────────────────
+# SQLite is built into Python — no install needed.
+# SQLAlchemy is optional; the project uses sqlite3 directly.
+# sqlalchemy>=2.0.0
+
+# ── Time-series / ML models ───────────────────────────────────────────────────
+statsmodels>=0.14.0   # optional: for ARIMA / SARIMA support
+xgboost>=1.7.0        # optional: replaces GradientBoostingRegressor automatically
+
+# ── Dashboard ─────────────────────────────────────────────────────────────────
+streamlit>=1.28.0
+plotly>=5.17.0
+
+# ── Orchestration (optional — only needed for Airflow DAG) ───────────────────
+# apache-airflow>=2.7.0
+
+# ── Experiment tracking (optional) ───────────────────────────────────────────
+# mlflow>=2.7.0

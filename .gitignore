@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Data (large files — keep structure, ignore content)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pkl
+data/*.db
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+plugins/
+
+# MLflow
+mlruns/
