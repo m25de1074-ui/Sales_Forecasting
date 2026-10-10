@@ -1,0 +1,12 @@
+Feature,Importance,Model
+day,0.8129,Random Forest
+rolling_mean_7,0.0627,Random Forest
+lag_7,0.0306,Random Forest
+lag_1,0.022,Random Forest
+week,0.0168,Random Forest
+lag_14,0.0164,Random Forest
+rolling_std_7,0.0151,Random Forest
+lag_30,0.0114,Random Forest
+is_weekend,0.0083,Random Forest
+month,0.0033,Random Forest
+quarter,0.0006,Random Forest

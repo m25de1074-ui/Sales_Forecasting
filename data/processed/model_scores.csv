@@ -1,0 +1,4 @@
+Rank,Model,MAE,RMSE,MAPE(%),Best
+1,Random Forest,1744.29,2620.52,9.32,Winner
+2,XGBoost,1965.46,3004.91,10.39,
+3,AR Model,4179.67,6390.02,26.76,
